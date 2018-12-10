@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby'
 import MetaTags from '../components/Metatags';
+import Share from '../components/share';
 
 
 function BlogPost(props) {
@@ -25,6 +26,7 @@ function BlogPost(props) {
                 <h1>{title}</h1>
                 {image && <Img fluid={image.childImageSharp.fluid} />}
           <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
+        <Share title={title} url={url} pathname={props.location.pathname} />
             </div>
         </Layout>
     )
