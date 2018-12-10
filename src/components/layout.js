@@ -22,8 +22,8 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: '' },
-            { name: 'keywords', content: '' },
+            { name: 'description', content: 'Diario de opinión de Antonio Viñuales' },
+            { name: 'keywords', content: 'diario, opinión, antonio, viñuales, sociología, filosofía, actualidad, política' },
           ]}
         >
           <html lang="es" />
