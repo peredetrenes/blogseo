@@ -18,3 +18,8 @@ img{
 .post-list:hover{
     background-color: whitesmoke;
 }
+
+.fecha{
+	color:#999;
+	font-size:90%
+}
