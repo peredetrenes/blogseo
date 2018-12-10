@@ -27,6 +27,9 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+  <div style={{
+            color: '#fc0',
+          }}>El diario de Antonio Viñuales</div>
     </div>
   </div>
 )
