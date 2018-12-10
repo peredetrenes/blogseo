@@ -1,6 +1,7 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
+import fotoIcon from '../images/favicon.png'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -17,7 +18,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
   
-  <div className="foto"><img src='../images/favicon.png' alt="Antonio Viñuales" /></div>
+  <div className="foto"><img src={fotoIcon} alt="Antonio Viñuales" /></div>
   
   <h1 style={{ margin: 0 }}>
         <Link
