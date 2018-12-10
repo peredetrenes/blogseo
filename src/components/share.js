@@ -1,14 +1,18 @@
 import React from 'react'
 import twitterIcon from '../images/twitter.png'
 import fbIcon from '../images/facebook.png'
+import whatsappIcon from '../images/whatsapp.png'
 import './share.css'
 
 const Share = props => {
 
     const twitter = `https://twitter.com/intent/tweet?url=${props.url +
-        props.pathname}&text=${props.title} by @antoniovinuales`;
+        props.pathname}&text=${props.title} by @saigowthamr`;
 
     const fb = `https://www.facebook.com/sharer/sharer.php?u=${props.url +
+        props.pathname}`;
+		
+	const whatsapp = `whatsapp://send?text=${props.url +
         props.pathname}`;
 
     return (
@@ -23,6 +27,11 @@ const Share = props => {
                 <li>
                     <a href={twitter} target="blank">
                         <img src={twitterIcon} alt="twitter" />
+                    </a>
+                </li>
+				<li>
+                    <a href={whatsapp} target="blank">
+                        <img src={whatsappIcon} alt="twitter" />
                     </a>
                 </li>
             </ul>
