@@ -1,10 +1,7 @@
 ---
 title: My first Blog post
-description: This post is related to the gatsbyjs
-keywords: brexit
 date: '2018-12-02'
 image: 'time1.jpg'
-tags: ['javascript','react','gatsby']
 ---
 
 ## Why do we use it?
