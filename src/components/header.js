@@ -16,7 +16,10 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+  
+  <div className="foto"><img src="../images/favicon.png" alt="Antonio Viñuales" /></div>
+  
+  <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
