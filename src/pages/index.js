@@ -10,7 +10,7 @@ const IndexPage = (props) => {
         <Link to={node.fields.slug} className="link" >
           <div className="post-list">
             <h2>{node.frontmatter.title}</h2>
-            <span>{node.frontmatter.date}</span>
+            <span className="fecha">{node.frontmatter.date}</span>
             <p>{node.excerpt}</p>
           </div>
         </Link>
