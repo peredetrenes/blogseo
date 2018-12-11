@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
   
-  <div className="foto"><img src={fotoIcon} alt="Antonio Viñuales" width="75" /></div>
+  <div className="foto"><a href="/antonio-vinuales"><img src={fotoIcon} alt="Antonio Viñuales" width="75" /></a></div>
   
   <h1 style={{ margin: 0 }}>
         <Link
